@@ -156,6 +156,7 @@ padding: 10px 32px;
 
 .advantages-list {
     display: flex;
+    flex-wrap: wrap;
 }
 
 .advantages {
@@ -168,9 +169,11 @@ font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color: var(--primary-text-color);
+width: 270px;
 }
 .advantages-list-item:not(:last-child) {
     margin-right: 30px;
+    
 }
 
 .advantages-title {
@@ -183,7 +186,7 @@ margin-bottom: 10px;
 }
 
 .advantages-list-item:not(:last-child) {
-    margin-right: 30px;
+    
 }
 
 .about-list {
@@ -261,8 +264,6 @@ color: var(--primary-text-color);
     background-color: #2F303A;
     padding-top: 60px;
     padding-bottom: 60px;
-    padding-left: 215px;
-
 }
 
 .footer-logo {
