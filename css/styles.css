@@ -13,8 +13,7 @@ body {
     color: var(--primary-text-color);  
 }
 
-h1, h2, h3, h4, p {
-    margin-top: 0;
+h1, h2, h3, h4, p {    margin-top: 0;
     margin-bottom: 0;
 }
 
@@ -59,10 +58,12 @@ justify-content: space-between;
     font-family: Raleway, sans-serif;
    font-weight: 700;
    font-size: 26px;
-   line-height: 1.9;
+   line-height: 1.19;
    letter-spacing: 0.03em;
    color: var(--title-text-color);
    text-decoration: none; 
+   margin-right: 90px;
+   padding: 24px 0;
 }
    .logo-accent {
     color: var(--accent-color);
@@ -82,11 +83,7 @@ padding: 32px 0;
     color: var(--accent-color);
 }
 
-.header-logo {
-    margin-right: 90px;
-    padding: 24px 0;
-   
-}
+
 .head-item:not(:last-child) {
     margin-right: 50px;
 }
@@ -125,8 +122,6 @@ text-transform: uppercase;
 color: #FFFFFF;
 padding-top: 200px;
 margin-bottom: 30px;
-margin-right: 452px;
-margin-left: 452px;
 }
 
 .title {
@@ -250,6 +245,7 @@ font-size: 16px;
 line-height: 1.19;
 text-align: center;
 letter-spacing: 0.03em;
+margin-bottom: 10px;
 }
 
 .team-profession {  
@@ -305,10 +301,7 @@ color: rgba(255, 255, 255, 0.6);
 }
 
 .line {
- width: 1600px;
-height: 0px;
-left: 0px;
-top: 80px;
+ 
 border-bottom: 1px solid #ECECEC;
 }
 
