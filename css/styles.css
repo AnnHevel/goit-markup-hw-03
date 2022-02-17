@@ -111,6 +111,7 @@ margin-right: 50px;
     align-content: center;
     text-align: center;
     padding-bottom: 200px;
+    padding-top: 200px;
 }
 
 .hero-title {
@@ -120,7 +121,6 @@ line-height: 1.36;
 letter-spacing: 0.06em;
 text-transform: uppercase;
 color: #FFFFFF;
-padding-top: 200px;
 margin-bottom: 30px;
 }
 
@@ -301,7 +301,6 @@ color: rgba(255, 255, 255, 0.6);
 }
 
 .line {
- 
 border-bottom: 1px solid #ECECEC;
 }
 
